@@ -1,0 +1,49 @@
+@import url(cabecalho.css);
+@import url(barra-pesquisa.css);
+@import url(resert.css);
+@import url(carrosel.css);
+@import url(programas.css);
+@import url(frota.css);
+@import url(roteiros-secretos.css);
+@import url(roteiros.css);
+@import url(app.css);
+@import url(rodape.css);
+@import url(segmentos.css);
+
+
+
+
+
+:root {
+    --verde-principal: #04642c;
+    --verde-secundario:#084424;
+    --verde-claro:#7cdc1c;
+    --branco: #FFFFFF;
+
+}
+
+body{
+    background-color: var(--branco);
+    
+}
+
+.botao__geral{
+    color: var(--verde-secundario);
+    padding: 0.5rem 3rem;
+    border-color: var(--verde-secundario);
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 3rem 5rem;
+
+
+}
+
+.botao__geral:hover{
+    background-color: var(--verde-claro);
+    color: var(--branco);
+}
+
+h3{
+    color: var( --verde-claro);
+    margin: 0 5rem;
+}

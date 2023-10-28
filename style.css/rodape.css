@@ -1,0 +1,88 @@
+    .rodapé__lista{
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--verde-principal);
+        padding: 3em 0;
+
+    }
+
+    .lista-rodapé {
+        display: block;
+    }
+
+    .lista-rodapé__item {
+        display: flex;
+        align-items: center;
+        margin: 1.5em -0.5em;
+
+    }
+
+    .lista-rodapé-img{
+        width: 30px;
+        margin-right: 1rem;
+    }
+
+    .lista-rodapé__link {
+        color: var(--branco);
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .lista-rodapé__titulo {
+        font-size: 16px;
+        color: var(--branco);
+        text-decoration: none;
+        list-style: none;
+
+    }
+
+    .rodapé__logo {
+        height: 70px;
+    }
+
+    .rodapé__empresa-titulo{
+        color: var(--branco);
+      
+    }
+
+
+    .rodapé__empresa-lista{
+        display: flex;
+        flex-direction: row;
+        background-color: var(--verde-principal);
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+
+    }
+
+    .rodapé__empresa-item{
+        margin-left: 0.5rem;
+      
+
+    }
+
+    .rodapé__empresa-logo{
+        width: 100px;
+        height: 50px;
+        background-color: var(--branco);
+        border-radius: 10px;
+        margin-bottom: 1rem;
+       
+    }
+
+    .rodapé__lista-dreservados{
+        display: flex;
+        background-color: var(--verde-principal);
+
+    }
+
+    .rodapé__logo{
+        margin-left: 20rem;
+      
+    }
+
+    .rodapé__lista-direitos-texto{
+        color: var(--branco);
+       margin-top: 1.5rem;
+    }

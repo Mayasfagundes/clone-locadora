@@ -1,0 +1,106 @@
+.roteiros{
+    background-color: var(--verde-secundario);
+}
+
+.roteiros-explorar{
+    display: flex;
+    flex-direction: row;
+}
+
+.roteiros-explorar{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+
+.roteiros__texto{
+    color: var(--branco);
+    margin: 2rem 0 1rem 5rem;
+}
+
+.carrossel__roteiros{
+    background-color: var( --verde-principal);
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    margin-right: 15rem;
+    border-radius: 15px;
+}
+
+
+
+.roteiros__slider{
+    width: 400%;
+    height: 200px;
+    display: flex;
+}
+
+.roteiros__slider input{
+    display: none;
+}
+
+.slide-roteiro{
+    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    }
+
+.slide-roteiro img{
+    width: 300px;
+    height: 220px;
+    margin: 1.5rem ;
+    border-radius: 15px;
+
+}
+
+.slide__roteiros-texto{
+    color: var(--branco);
+    text-align: center;
+ 
+}
+
+.manual-navigation-roteiro{
+    position: absolute;
+    width: 350px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn1{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.manual-btn1:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn1:hover{
+    background-color: #fff;
+}
+
+#radio-1:checked ~ .first{
+    margin-left: 0;
+
+}
+
+#radio-2:checked ~ .first{
+    margin-left: -25%;
+
+}
+
+#radio-3:checked ~ .first{
+    margin-left: -50%;
+
+}
+
+#radio-4:checked ~ .first{
+    margin-left: -75%;
+
+}
