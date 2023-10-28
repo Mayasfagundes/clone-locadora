@@ -1,0 +1,22 @@
+.segmentos{
+    margin: 2rem;
+    display: flex;
+}
+
+.segmentos__box{
+    background-color: var(--branco);
+    box-shadow: 0 1px 3px #7cdc1c;
+    border-radius: 8px;
+    padding: 1.875rem;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    margin: 2rem;
+
+}
+
+.segmentos__box-img{
+    height: 40px;
+    width: 100px;
+    margin-bottom: 1rem;
+}
